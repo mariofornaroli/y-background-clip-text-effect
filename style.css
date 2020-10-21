@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Monoton', cursive;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #15334e;
+}
+
+h1 {
+    letter-spacing: 4px;
+    font-size: 2.5em;
+    background: linear-gradient(5deg, #d2f8ff 50%, #59bfe7 0);
+    -webkit-background-clip: text;
+    color: transparent;
+    text-shadow: 2px 3px 3px rgba(52, 90, 126, 0.15);
+}
